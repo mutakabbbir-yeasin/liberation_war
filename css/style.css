@@ -85,3 +85,11 @@
 .card_img:hover{
     transform: scale(1.2);
 }
+
+.photo_div{
+    transition: .5s ease;
+}
+
+.photo_div:hover{
+    transform: translateY(-5px);
+}
