@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery Page || Libaration War</title>
+    <!-- BOOTSTRAP ICONS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand fw-bold ms-md-4 ms-sm-3 text-light"
+          href="index.html"
+        >
+          <img
+            src="images/logo.png "
+            alt="Logo"
+            width="25"
+            height="25"
+            class="d-inline-block align-text-top me-1"
+          />
+          BANGLADESH
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4 text-white">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="documents.html">Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="interviews.html"
+                >Interviews</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white active" href="gallary.html"
+                >Gallary</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAROUSEL SECTION -->
+    <section>
+      <div class="container-fluid p-0 m-0">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="images/gallary/gal1.jpg" class="d-block w-100 slider-img" alt="img" />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/gallary/gal2.jpg" class="d-block w-100 slider-img" alt="img" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/img1.jpg" class="d-block w-100 slider-img" alt="img" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION  -->
+    <footer class="mt-5 py-3 bg-success">
+      <div class="container-fluid">
+        <p class="text-center text-light p-0 m-0">
+          2025
+          <svg
+            class="svg-design"
+            width="17"
+            height="18"
+            viewBox="0 0 17 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.75 8.59229C16.75 13.155 13.0541 16.8535 8.4954 16.8535C3.93672 16.8535 0.240845 13.155 0.240845 8.59229C0.240845 4.02955 3.93672 0.331055 8.4954 0.331055C13.0541 0.331055 16.75 4.02955 16.75 8.59229Z"
+              stroke="white"
+              stroke-width="0.5"
+            ></path>
+            <path
+              d="M4.08736 8.66701C4.08736 7.76034 4.26869 6.96567 4.63136 6.28301C5.00469 5.58967 5.51669 5.05634 6.16736 4.68301C6.81803 4.30967 7.56469 4.12301 8.40736 4.12301C9.47403 4.12301 10.354 4.37901 11.0474 4.89101C11.7514 5.39234 12.226 6.11234 12.4714 7.05101H10.5034C10.3434 6.61367 10.0874 6.27234 9.73536 6.02701C9.38336 5.78167 8.94069 5.65901 8.40736 5.65901C7.66069 5.65901 7.06336 5.92567 6.61536 6.45901C6.17803 6.98167 5.95936 7.71767 5.95936 8.66701C5.95936 9.61634 6.17803 10.3577 6.61536 10.891C7.06336 11.4243 7.66069 11.691 8.40736 11.691C9.46336 11.691 10.162 11.227 10.5034 10.299H12.4714C12.2154 11.195 11.7354 11.9097 11.0314 12.443C10.3274 12.9657 9.4527 13.227 8.40736 13.227C7.56469 13.227 6.81803 13.0403 6.16736 12.667C5.51669 12.283 5.00469 11.7497 4.63136 11.067C4.26869 10.3737 4.08736 9.57367 4.08736 8.66701Z"
+              fill="white"
+            ></path>
+          </svg>
+          Mutakabbir Yeasin
+        </p>
+      </div>
+    </footer>
+
+    <!-- OWN JS FILE -->
+    <script src="js/script.js"></script>
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
