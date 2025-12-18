@@ -14,6 +14,23 @@
     color: rgb(0, 110, 37) !important;
 }
 
+.footer-nav li{
+    width: 250px;
+    display: flex;
+    margin-right: 10px;
+    transition: .5s;
+    justify-content: center;
+}
+
+.footer-nav li:hover {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.footer-nav li a.active:hover,
+.footer-nav li a:hover {
+    color: rgb(0, 110, 37) !important;
+}
 .svg-design {
     color: aliceblue !important;
 }
