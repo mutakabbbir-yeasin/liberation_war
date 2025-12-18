@@ -16,20 +16,22 @@
 
 .footer-nav li{
     width: 250px;
+    list-style: none;
+    transition: .2s;
     display: flex;
-    margin-right: 10px;
-    transition: .5s;
     justify-content: center;
 }
 
 .footer-nav li:hover {
     background-color: aliceblue;
     border-radius: 5px;
+    color: rgb(0, 110, 37) !important;
 }
 
 .footer-nav li a.active:hover,
 .footer-nav li a:hover {
     color: rgb(0, 110, 37) !important;
+    border-radius: 5px;
 }
 .svg-design {
     color: aliceblue !important;
